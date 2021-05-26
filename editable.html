@@ -1,6 +1,6 @@
 <!DOCTYPE html><html class="" lang=""><head><script type="text/javascript" class="silex-json-styles" data-silex-static="">
     window.silex = window.silex || {}
-    window.silex.data = {"site":{"width":1196},"pages":[{"id":"page-index","displayName":"index","link":{"linkType":"LinkTypePage","href":"#!page-index"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-test","displayName":"TEST","link":{"linkType":"LinkTypePage","href":"#!page-test"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false}]}</script>
+    window.silex.data = {"site":{"width":1196},"pages":[{"id":"page-germanophone","displayName":"germanophone","link":{"linkType":"LinkTypePage","href":"#!page-germanophone"},"canDelete":true,"canProperties":true,"canMove":true,"canRename":true,"opened":false},{"id":"page-anglophone","displayName":"anglophone","link":{"linkType":"LinkTypePage","href":"#!page-anglophone"},"canDelete":true,"canRename":true,"canMove":true,"canProperties":true,"opened":false}]}</script>
     <meta charset="UTF-8">
     <!-- generator meta tag -->
     <!-- leave this for stats and Silex version check -->
@@ -22,11 +22,17 @@
 		{
 			form_devis1.style.display = "block";
 			form_devis2.style.display = "none";
+
+			form_devis3.style.display = "block";
+			form_devis4.style.display = "none";
 		}
 		else
 		{
 			form_devis2.style.display = "block";
 			form_devis1.style.display = "none";
+
+			form_devis4.style.display = "block";
+			form_devis3.style.display = "none";
 		}
 }
 
@@ -37,21 +43,27 @@ function rgpd() {
   {
 		document.getElementById("submit").disabled = false;
 		document.getElementById("submit2").disabled = false;
+
+		document.getElementById("submit3").disabled = false;
+		document.getElementById("submit4").disabled = false;
   } 
   else
   {
 		document.getElementById("submit").disabled = true;
 		document.getElementById("submit2").disabled = true;
+
+		document.getElementById("submit3").disabled = true;
+		document.getElementById("submit4").disabled = true;
   }
 }
 
 </script>
-    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1); position: static; background-image: url(image%20fond.PNG); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center center;}.silex-id-1478366444112-1 {background-color: transparent; position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1478366444112-0 {background-color: rgba(255,255,255,1); min-height: 2405px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1474394621033-3 {position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1474394621032-2 {background-color: rgba(255,255,255,1); min-height: 407px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1478366450713-3 {background-color: transparent; position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1478366450713-2 {background-color: rgba(255,255,255,1); min-height: 269px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1620802915579-0 {position: static;}.silex-id-1620802915579-1 {min-height: 148px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto; opacity: 0.9;}.silex-id-1620803885312-12 {position: static;}.silex-id-1620803885312-13 {min-height: 226px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto; opacity: 0.9;}.silex-id-1620804324182-15 {width: 1198px; height: 407px; position: absolute; top: -1px; left: -1px;}.silex-id-1620804596491-16 {width: 95px; height: 109px; position: absolute; top: 23px; left: 47px;}.silex-id-1620804619418-17 {width: 107px; height: 101px; position: absolute; top: 31px; left: 852px;}.silex-id-1620804627813-18 {width: 99px; height: 118px; position: absolute; top: 14px; left: 464.5px;}.silex-id-1620804657506-19 {width: 147px; min-height: 49px; position: absolute; top: 52px; left: 596px;}.silex-id-1620804662180-20 {width: 188px; min-height: 47px; position: absolute; top: 52px; left: 976px;}.silex-id-1620804665624-21 {width: 165px; min-height: 52px; position: absolute; top: 52px; left: 176px;}.silex-id-1620806171438-30 {width: 328px; height: 118px; position: absolute; top: 393.8854217529297px; left: 26px;}.silex-id-1620806186985-31 {width: 299px; min-height: 60px; position: absolute; top: 503px; left: 55px; background-color: transparent;}.silex-id-1620808292355-34 {width: 364px; min-height: 35px; position: absolute; top: 350.5416717529297px; left: 2.93756103515625px; background-color: rgba(51,51,51,1);}.silex-id-1620808749060-35 {width: 316px; height: 89px; position: absolute; top: 563px; left: 26.145835876464844px;}.silex-id-1620808759555-36 {width: 299px; min-height: 60px; position: absolute; top: 644px; left: 46.5px; background-color: transparent;}.silex-id-1620809057533-40 {width: 364px; min-height: 34px; background-color: rgb(255, 255, 255); position: absolute; top: 679.4895935058594px; left: 14.4375px;}.silex-id-1620809136381-41 {width: 280px; height: 88px; position: absolute; top: 704.4793090820312px; left: 37px;}.silex-id-1620809150839-42 {width: 299px; min-height: 60px; position: absolute; top: 787.3027191162109px; left: 46.5px; background-color: transparent;}.silex-id-1620809187191-43 {width: 363px; min-height: 23px; background-color: rgb(255, 255, 255); position: absolute; top: 824.2605285644531px; left: 14.4375px;}.silex-id-1620809212925-44 {width: 361px; min-height: 28px; background-color: rgb(255, 255, 255); position: absolute; top: 534.9999899864197px; left: 19.458351135253906px;}.silex-id-1620809241986-45 {width: 249px; height: 103px; position: absolute; top: 853px; left: 54.5px;}.silex-id-1620809249427-46 {width: 256px; min-height: 60px; position: absolute; top: 943px; left: 59.5px; background-color: transparent;}.silex-id-1620809458462-48 {width: 20px; min-height: 2165px; background-color: rgb(255, 255, 255); position: absolute; top: 30px; left: 409px;}.silex-id-1620810566235-52 {width: 361px; min-height: 200px; position: absolute; top: 1478px; left: 14.187515258789062px;}.silex-id-1620810940512-53 {width: 361px; height: 186px; position: absolute; top: 1686px; left: 19.333778381347656px;}.silex-id-1620810951486-54 {width: 361px; height: 199px; position: absolute; top: 1882px; left: 20px;}.silex-id-1620810960997-55 {width: 362px; height: 73px; position: absolute; top: 2093.3333740234375px; left: 19.375030517578125px;}.silex-id-1620811096868-56 {width: 203px; min-height: 51px; position: absolute; top: 2279px; left: 97.5px;}.silex-id-1620811382764-58 {width: 400px; height: 89px; position: absolute; top: 152px; left: 274px;}.silex-id-1620811408340-59 {width: 103px; min-height: 60px; position: absolute; top: 43px; left: 416px;}.silex-id-1620811477140-60 {width: 243px; min-height: 260px; position: absolute; top: 43px; left: 21px;}.silex-id-1620811685962-61 {width: 100px; min-height: 60px; position: absolute; top: 36px; left: 741.5001221299171px;}.silex-id-1620811727501-62 {width: 100px; min-height: 51px; position: absolute; top: 166px; left: 742px;}.silex-id-1620811885669-63 {width: 134px; min-height: 60px; position: absolute; top: 43px; left: 975.5px;}.silex-id-1620811909119-64 {width: 100px; min-height: 51px; position: absolute; top: 166px; left: 989px;}.silex-id-1620825863354-2 {width: 364px; min-height: 33px; position: absolute; top: 1423px; left: 3.16668701171875px; background-color: rgba(51,51,51,1);}.silex-id-1620825864108-3 {width: 364px; min-height: 35px; position: absolute; top: 1141px; left: 3.4166717529296875px; background-color: rgba(51,51,51,1);}.silex-id-1621243646858-4 {width: 185px; min-height: 50px; position: absolute; top: 1279px; left: 108px;}.silex-id-1621243647338-5 {width: 186px; min-height: 50px; position: absolute; top: 1319px; left: 108.5px;}.silex-id-1621245384629-12 {width: 1195px; min-height: 23px; background-color: rgb(255, 255, 255); position: absolute; top: 3789px; left: -1px;}.silex-id-1621252431763-0 {width: 463px; min-height: 50px; position: absolute; top: 1268.0833435058594px; left: 501px;}.silex-id-1621257854538-4 {width: 1187px; min-height: 30px; background-color: rgb(255, 255, 255); position: absolute; top: -1px; left: 3.5px;}.silex-id-1621262435197-7 {width: 193px; min-height: 50px; position: absolute; top: 1236px; left: 108px;}.silex-id-1621262896326-1 {width: 170px; min-height: 50px; position: absolute; top: 1196px; left: 108.5px;}.silex-id-1621263123701-2 {width: 185px; min-height: 50px; position: absolute; top: 1359px; left: 108.5px;}.silex-id-1621326628150-4 {width: 776px; min-height: 1201px; background-color: rgba(255,255,255,1); position: absolute; top: 11px; left: 415px;}.silex-id-1621340798768-2 {width: 363px; min-height: 23px; background-color: rgb(255, 255, 255); position: absolute; top: 980px; left: 19.5px;}.silex-id-1621409561816-4 {min-height: 615px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1621409734520-6 {width: 140px; min-height: 189px; position: absolute; top: 16px; left: 37.5px;}.silex-id-1621410361558-7 {width: 84px; min-height: 52px; position: absolute; top: 82px; left: 462px;}.silex-id-1621410438497-8 {width: 140px; min-height: 50px; position: absolute; top: 79px; left: 885px;}.silex-id-1621416116853-13 {width: 512px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 76px; left: 539px;}.silex-id-1621426626783-5 {width: 1187px; min-height: 30px; background-color: rgb(255, 255, 255); position: absolute; top: -3px; left: 4px;}.silex-id-1621495427069-2 {width: 100px; min-height: 100px; position: absolute; top: 543px; left: 551.5px;}.silex-id-1621495475310-3 {position: static;}.silex-id-1621495475311-4 {min-height: 766px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1621497442114-3 {width: 401px; min-height: 303px; background-color: rgb(255, 255, 255); position: absolute; top: 23.635421752929688px; left: 3.4227981567382812px;}.silex-id-1621949963577-0 {width: 302px; min-height: 116px; background-color: rgb(255, 255, 255); position: absolute; top: 1003px; left: 54px;}.silex-id-1621949989041-1 {width: 604px; min-height: 377px; background-color: rgb(255, 255, 255); position: absolute; top: 1395px; left: 497px;}@media only screen and (max-width: 480px) {}</style>
+    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1); position: static; background-image: url(image%20fond.PNG); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; background-position: center center;}.silex-id-1478366444112-1 {background-color: transparent; position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1478366444112-0 {background-color: rgba(255,255,255,1); min-height: 2405px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1474394621033-3 {position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1474394621032-2 {background-color: rgba(255,255,255,1); min-height: 407px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1478366450713-3 {background-color: transparent; position: static; margin-top: -1px; opacity: 0.9;}.silex-id-1478366450713-2 {background-color: rgba(255,255,255,1); min-height: 269px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1620802915579-0 {position: static;}.silex-id-1620802915579-1 {min-height: 148px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto; opacity: 0.9;}.silex-id-1620803885312-12 {position: static;}.silex-id-1620803885312-13 {min-height: 226px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto; opacity: 0.9;}.silex-id-1620804324182-15 {width: 1196px; height: 407px; position: absolute; top: -1px; left: -1px;}.silex-id-1620804596491-16 {width: 95px; height: 109px; position: absolute; top: 23.00004005432129px; left: 45.5px;}.silex-id-1620804619418-17 {width: 107px; height: 101px; position: absolute; top: 31px; left: 852px;}.silex-id-1620804627813-18 {width: 99px; height: 118px; position: absolute; top: 14px; left: 464.5px;}.silex-id-1620804657506-19 {width: 147px; min-height: 49px; position: absolute; top: 52px; left: 594.000114440918px;}.silex-id-1620804662180-20 {width: 188px; min-height: 47px; position: absolute; top: 52px; left: 974.0001525878906px;}.silex-id-1620804665624-21 {width: 165px; min-height: 52px; position: absolute; top: 52px; left: 176px;}.silex-id-1620806171438-30 {width: 328px; height: 118px; position: absolute; top: 393.8854217529297px; left: 26px;}.silex-id-1620806186985-31 {width: 299px; min-height: 60px; position: absolute; top: 503px; left: 55px; background-color: transparent;}.silex-id-1620808292355-34 {width: 364px; min-height: 35px; position: absolute; top: 350.54168701171875px; left: 2.9375px; background-color: rgba(51,51,51,1);}.silex-id-1620808749060-35 {width: 316px; height: 89px; position: absolute; top: 563px; left: 26.145835876464844px;}.silex-id-1620808759555-36 {width: 299px; min-height: 60px; position: absolute; top: 644px; left: 46.5px; background-color: transparent;}.silex-id-1620809057533-40 {width: 364px; min-height: 34px; background-color: rgb(255, 255, 255); position: absolute; top: 679.4895935058594px; left: 14.4375px;}.silex-id-1620809136381-41 {width: 280px; height: 88px; position: absolute; top: 704.4793090820312px; left: 37px;}.silex-id-1620809150839-42 {width: 299px; min-height: 60px; position: absolute; top: 787.3027191162109px; left: 46.5px; background-color: transparent;}.silex-id-1620809187191-43 {width: 363px; min-height: 23px; background-color: rgb(255, 255, 255); position: absolute; top: 824.2605285644531px; left: 14.4375px;}.silex-id-1620809212925-44 {width: 361px; min-height: 28px; background-color: rgb(255, 255, 255); position: absolute; top: 534.9999899864197px; left: 19.458351135253906px;}.silex-id-1620809241986-45 {width: 249px; height: 103px; position: absolute; top: 853px; left: 54.500003814697266px;}.silex-id-1620809249427-46 {width: 256px; min-height: 60px; position: absolute; top: 943px; left: 59.5px; background-color: transparent;}.silex-id-1620809458462-48 {width: 20px; min-height: 2165px; background-color: rgb(255, 255, 255); position: absolute; top: 30px; left: 409px;}.silex-id-1620810566235-52 {width: 361px; min-height: 200px; position: absolute; top: 1478px; left: 14.1875px;}.silex-id-1620810940512-53 {width: 361px; height: 186px; position: absolute; top: 1686px; left: 19.333778381347656px;}.silex-id-1620810951486-54 {width: 361px; height: 199px; position: absolute; top: 1882px; left: 20px;}.silex-id-1620810960997-55 {width: 362px; height: 73px; position: absolute; top: 2093.3333740234375px; left: 19.375030517578125px;}.silex-id-1620811096868-56 {width: 203px; min-height: 51px; position: absolute; top: 2279px; left: 97.5px;}.silex-id-1620811382764-58 {width: 400px; height: 89px; position: absolute; top: 152px; left: 274px;}.silex-id-1620811408340-59 {width: 103px; min-height: 60px; position: absolute; top: 43px; left: 416px;}.silex-id-1620811477140-60 {width: 243px; min-height: 260px; position: absolute; top: 43px; left: 21px;}.silex-id-1620811685962-61 {width: 100px; min-height: 60px; position: absolute; top: 36px; left: 741.5001221299171px;}.silex-id-1620811727501-62 {width: 100px; min-height: 51px; position: absolute; top: 166px; left: 742px;}.silex-id-1620811885669-63 {width: 134px; min-height: 60px; position: absolute; top: 43px; left: 975.5px;}.silex-id-1620811909119-64 {width: 100px; min-height: 51px; position: absolute; top: 166px; left: 989px;}.silex-id-1620825863354-2 {width: 364px; min-height: 33px; position: absolute; top: 1423px; left: 3.16668701171875px; background-color: rgba(51,51,51,1);}.silex-id-1620825864108-3 {width: 364px; min-height: 35px; position: absolute; top: 1141px; left: 3.4166717529296875px; background-color: rgba(51,51,51,1);}.silex-id-1621243646858-4 {width: 185px; min-height: 50px; position: absolute; top: 1279px; left: 108px;}.silex-id-1621243647338-5 {width: 186px; min-height: 50px; position: absolute; top: 1319px; left: 108.5px;}.silex-id-1621252431763-0 {width: 463px; min-height: 50px; position: absolute; top: 1268.0833435058594px; left: 501px;}.silex-id-1621257854538-4 {width: 1187px; min-height: 30px; background-color: rgb(255, 255, 255); position: absolute; top: -1px; left: 3.5px;}.silex-id-1621262435197-7 {width: 193px; min-height: 50px; position: absolute; top: 1236px; left: 108px;}.silex-id-1621262896326-1 {width: 170px; min-height: 50px; position: absolute; top: 1196px; left: 108.5px;}.silex-id-1621263123701-2 {width: 185px; min-height: 50px; position: absolute; top: 1359px; left: 108.5px;}.silex-id-1621326628150-4 {width: 776px; min-height: 1201px; background-color: rgba(255,255,255,1); position: absolute; top: 11px; left: 415px;}.silex-id-1621340798768-2 {width: 363px; min-height: 23px; background-color: rgb(255, 255, 255); position: absolute; top: 980px; left: 19.5px;}.silex-id-1621409561816-4 {min-height: 615px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1621409734520-6 {width: 140px; min-height: 189px; position: absolute; top: 16px; left: 37.5px;}.silex-id-1621410361558-7 {width: 84px; min-height: 52px; position: absolute; top: 82px; left: 462px;}.silex-id-1621410438497-8 {width: 140px; min-height: 50px; position: absolute; top: 79px; left: 885px;}.silex-id-1621416116853-13 {width: 512px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 76px; left: 539px;}.silex-id-1621426626783-5 {width: 1187px; min-height: 30px; background-color: rgb(255, 255, 255); position: absolute; top: -3px; left: 4px;}.silex-id-1621495475310-3 {position: static;}.silex-id-1621495475311-4 {min-height: 407px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1621497442114-3 {width: 401px; min-height: 303px; background-color: rgb(255, 255, 255); position: absolute; top: 23.63543701171875px; left: 3.41668701171875px;}.silex-id-1622016400536-2 {width: 100px; height: 100px; position: absolute; top: 166.00003337860107px; left: 188px;}.silex-id-1622016439530-3 {width: 100px; height: 100px; position: absolute;}.silex-id-1622016634984-0 {width: 319px; min-height: 116px; background-color: rgb(255, 255, 255); position: absolute; top: 1003px; left: 46.5px;}.silex-id-1622016659678-1 {width: 611px; min-height: 389px; background-color: rgb(255, 255, 255); position: absolute; top: 1369.3333358764648px; left: 489px;}.silex-id-1622016742120-2 {width: 1196px; height: 407px; position: absolute; top: -0.7500362396240234px; left: -0.6772842407226562px;}.silex-id-1622016873590-3 {position: static;}.silex-id-1622016873590-4 {min-height: 148px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1622016986816-5 {width: 107px; height: 101px; position: absolute; top: 21.773319244384766px; left: 792.3333740234375px;}.silex-id-1622017000991-6 {width: 99px; height: 118px; position: absolute; top: 13.71875px; left: 383.9895839691162px;}.silex-id-1622017022188-7 {width: 95px; height: 109px; position: absolute; top: 13.906770706176758px; left: 22px;}.silex-id-1622017117270-8 {width: 133px; min-height: 69px; position: absolute; top: 36.333824157714844px; left: 123px;}.silex-id-1622017206291-9 {width: 162px; min-height: 69px; position: absolute; top: 36.760406494140625px; left: 504px;}.silex-id-1622017276577-10 {width: 207px; min-height: 69px; position: absolute; top: 36.88557434082031px; left: 933.0000305175781px;}.silex-id-1622017391272-11 {position: static;}.silex-id-1622017391272-12 {min-height: 2405px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1622017452644-13 {width: 401px; min-height: 303px; background-color: rgb(255, 255, 255); position: absolute; top: 5px; left: -1px;}.silex-id-1622017652737-14 {width: 20px; min-height: 2350px; background-color: rgb(255, 255, 255); position: absolute; top: 27px; left: 400px;}.silex-id-1622018486538-18 {width: 364px; min-height: 35px; position: absolute; top: 322px; left: 7px; background-color: rgba(51,51,51,1);}.silex-id-1622018521466-20 {width: 328px; height: 118px; position: absolute; top: 926px; left: 129px;}.silex-id-1622018545467-22 {width: 163px; min-height: 52.083335876464844px; position: absolute; top: 488px; left: 111px; background-color: transparent;}.silex-id-1622018554567-24 {width: 316px; height: 89px; position: absolute; top: 547.4895782470703px; left: 40.27082824707031px;}.silex-id-1622018565783-26 {width: 168px; min-height: 52px; position: absolute; top: 636.282958984375px; left: 106.00038528442383px; background-color: transparent;}.silex-id-1622018573712-28 {width: 280px; height: 88px; position: absolute; top: 696.8336486816406px; left: 50.52091026306152px;}.silex-id-1622018581523-30 {width: 161px; min-height: 52px; position: absolute; top: 784.5007629394531px; left: 111.0002555847168px; background-color: transparent;}.silex-id-1622018588281-32 {width: 249px; height: 103px; position: absolute; top: 844.3426208496094px; left: 56.8229923248291px;}.silex-id-1622018595547-34 {width: 152px; min-height: 52px; position: absolute; top: 947.3434753417969px; left: 111.00007629394531px; background-color: transparent;}.silex-id-1622019016890-36 {width: 364px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 523px; left: 7px;}.silex-id-1622019027202-37 {width: 364px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 674px; left: 7px;}.silex-id-1622019051125-38 {width: 364px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 820px; left: 7px;}.silex-id-1622019066851-39 {width: 364px; min-height: 20px; background-color: rgb(255, 255, 255); position: absolute; top: 987px; left: 6px;}.silex-id-1622019105861-41 {width: 319px; min-height: 116px; background-color: rgb(255, 255, 255); position: absolute; top: 1007.0011901855469px; left: 40.31258201599121px;}.silex-id-1622019139759-43 {width: 364px; min-height: 35px; position: absolute; top: 1139px; left: 6.21875px; background-color: rgba(51,51,51,1);}.silex-id-1622019369518-45 {width: 170px; min-height: 50px; position: absolute; top: 1200.9999694824219px; left: 92.82311058044434px;}.silex-id-1622019453103-47 {width: 188px; min-height: 69px; position: absolute; top: 1404px; left: 93px;}.silex-id-1622019453967-48 {width: 212px; min-height: 69px; position: absolute; top: 1252px; left: 92px;}.silex-id-1622019455022-49 {width: 192px; min-height: 69px; position: absolute; top: 1302px; left: 92px;}.silex-id-1622019455973-50 {width: 203px; min-height: 69px; position: absolute; top: 1353px; left: 92px;}.silex-id-1622019590173-52 {width: 364px; min-height: 33px; position: absolute; top: 1455px; left: 5.71875px; background-color: rgba(51,51,51,1);}.silex-id-1622019639780-54 {width: 361px; min-height: 157px; position: absolute; top: 1498px; left: 7px;}.silex-id-1622020008799-57 {width: 361px; height: 186px; position: absolute; top: 1682px; left: 7.2396087646484375px;}.silex-id-1622020023174-59 {width: 361px; height: 199px; position: absolute; top: 1888.9895935058594px; left: 7.656280517578125px;}.silex-id-1622020046792-61 {width: 362px; height: 73px; position: absolute; top: 2109.3333435058594px; left: 7.197940826416016px;}.silex-id-1622020071058-63 {width: 203px; min-height: 51px; position: absolute; top: 2236.3333435058594px; left: 80.5625px;}.silex-id-1622020102212-65 {width: 776px; min-height: 1201px; background-color: rgba(255,255,255,1); position: absolute; top: 5px; left: 412px;}.silex-id-1622020137718-67 {width: 463px; min-height: 50px; position: absolute; top: 1232px; left: 539px;}.silex-id-1622020151343-69 {width: 611px; min-height: 389px; background-color: rgb(255, 255, 255); position: absolute; top: 1302.0098266601562px; left: 466.9791717529297px;}.silex-id-1622022803549-73 {position: static;}.silex-id-1622022803549-74 {min-height: 269px; background-color: rgb(255, 255, 255); position: relative; margin-left: auto; margin-right: auto;}.silex-id-1622022834391-75 {width: 1187px; min-height: 30px; background-color: rgb(255, 255, 255); position: absolute; top: -8.989593505859375px; left: 7.552268981933594px;}.silex-id-1622022891348-77 {width: 243px; min-height: 260px; position: absolute; top: 7.70135498046875px; left: 22.40642547607422px;}.silex-id-1622022942814-79 {width: 400px; height: 89px; position: absolute; top: 115px; left: 303.53125px;}.silex-id-1622022977366-81 {width: 103px; min-height: 60px; position: absolute; top: 7.7509765625px; left: 448px;}.silex-id-1622023012034-83 {width: 100px; min-height: 51px; position: absolute; top: 141.92819213867188px; left: 1025px;}.silex-id-1622023015239-84 {width: 100px; min-height: 51px; position: absolute; top: 141.66665649414062px; left: 792.3333435058594px;}.silex-id-1622023029779-86 {width: 100px; min-height: 60px; position: absolute; top: 13.989593505859375px; left: 792px;}.silex-id-1622023061584-88 {width: 134px; min-height: 60px; position: absolute; top: 14.09619140625px; left: 1002px;}@media only screen and (max-width: 480px) {}</style>
     <title></title>
     
 
     
-<meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css" class="silex-style-settings">.website-width {width: 1196px;}@media (min-width: 481px) {.silex-editor {min-width: 1396px;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h2 {color: #ffffff;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif; color: #000000;}p {font-family: 'Arial'; color: #000000;}a {font-style: normal; color: #000000; background-color: #ffffff; text-decoration: none;}[data-silex-href] {font-style: normal; color: #000000; background-color: #ffffff; text-decoration: none;}.page-link-active {background-color: #000000;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-blue">.style-blue.text-element > .silex-element-content {color: #3d6ca8;}.style-blue p {font-family: 'Arial';}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-white">.style-white.text-element > .silex-element-content {font-size: 16px; color: #ffffff; background-color: #333333; line-height: 18px;}.style-white p {font-family: 'Arial'; font-weight: bold; font-size: 16px; color: #ffffff; background-color: #333333; line-height: 1px;}</style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1"><style type="text/css" class="silex-style-settings">.website-width {width: 1196px;}@media (min-width: 481px) {.silex-editor {min-width: 1396px;}}</style><link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" class="silex-custom-font"><style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h2 {color: #ffffff;}.text-element > .silex-element-content {font-family: 'Roboto', sans-serif; color: #000000;}p {font-family: 'Arial'; font-size: 16px; color: #000000;}a {font-style: normal; color: #000000; background-color: #ffffff; text-decoration: none;}[data-silex-href] {font-style: normal; color: #000000; background-color: #ffffff; text-decoration: none;}.page-link-active {background-color: #000000;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-blue">.style-blue.text-element > .silex-element-content {color: #3d6ca8;}.style-blue p {font-family: 'Arial';}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-white">.style-white.text-element > .silex-element-content {font-size: 16px; color: #ffffff; background-color: #333333; line-height: 18px;}.style-white p {font-family: 'Arial'; font-weight: bold; font-size: 16px; color: #ffffff; background-color: #333333; line-height: 1px;}</style></head>
 
 <body data-silex-id="body-initial" class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime" data-silex-type="container-element" style="">
     
@@ -83,23 +95,19 @@ function rgpd() {
 
 
 
-<div data-silex-type="container-element" class="editable-style section-element silex-id-1474394621033-3 page-index paged-element" data-silex-id="silex-id-1474394621033-3" title=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1474394621032-2 website-width" data-silex-id="silex-id-1474394621032-2" title="" style=""><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804324182-15 page-index paged-element" data-silex-id="silex-id-1620804324182-15" style=""><img src="image.png"></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1620802915579-0 page-page-1 page-index paged-element" data-silex-id="silex-id-1620802915579-0" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1620802915579-1 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1620802915579-1" style=""><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804619418-17" data-silex-id="silex-id-1620804619418-17" style=""><img src="megaphone.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804662180-20" data-silex-id="silex-id-1620804662180-20" style=""><div class="silex-element-content normal">93% unserer Kunden sind bereit, uns zu empfehlen</div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804627813-18" data-silex-id="silex-id-1620804627813-18" style=""><img src="pouce.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804665624-21" data-silex-id="silex-id-1620804665624-21" style=""><div class="silex-element-content normal">88% unserer Angebote werden akzeptiert</div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804596491-16 page-page-1 page-index paged-element" data-silex-id="silex-id-1620804596491-16" style=""><img src="devis.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804657506-19" data-silex-id="silex-id-1620804657506-19" style=""><div class="silex-element-content normal">95% unserer Kunden sind zufrieden</div></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1478366444112-1 page-index paged-element" data-silex-id="silex-id-1478366444112-1" title="" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1478366444112-0 website-width" data-silex-id="silex-id-1478366444112-0" title="" style=""><div data-silex-type="html-element" class="editable-style html-element silex-id-1621245384629-12 page-index paged-element" data-silex-id="silex-id-1621245384629-12" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621416116853-13 page-index paged-element" data-silex-id="silex-id-1621416116853-13" style=""><div class="silex-element-content"><style>.clignote2 {color: black; font-size: 120%; animation: clignote 2s linear infinite;}@keyframes clignote { 
+<div data-silex-type="image-element" class="editable-style image-element silex-id-1622016439530-3 page-anglophone paged-element" data-silex-id="silex-id-1622016439530-3"></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1474394621033-3 page-index page-germanophone paged-element" data-silex-id="silex-id-1474394621033-3" title=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1474394621032-2 website-width" data-silex-id="silex-id-1474394621032-2" title="" style=""><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804324182-15 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804324182-15" style=""><img src="image.png"></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1620802915579-0 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620802915579-0" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1620802915579-1 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1620802915579-1" style=""><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804619418-17 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804619418-17" style=""><img src="megaphone.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804627813-18 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804627813-18" style=""><img src="pouce.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804665624-21 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804665624-21" style=""><div class="silex-element-content normal">88% unserer Angebote werden akzeptiert</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804657506-19 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804657506-19" style=""><div class="silex-element-content normal">95% unserer Kunden sind zufrieden</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620804662180-20 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804662180-20" style=""><div class="silex-element-content normal">93% unserer Kunden sind bereit, uns zu empfehlen</div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620804596491-16 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620804596491-16" style=""><img src="devis.PNG"></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1478366444112-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1478366444112-1" title="" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1478366444112-0 website-width" data-silex-id="silex-id-1478366444112-0" title="" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1620808292355-34 page-index style-white page-germanophone paged-element" data-silex-id="silex-id-1620808292355-34" style=""><div class="silex-element-content normal">   <p><b>&nbsp; &nbsp; UNSERE FLOTTE</b><br></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621416116853-13 page-index page-germanophone paged-element" data-silex-id="silex-id-1621416116853-13" style=""><div class="silex-element-content"><style>.clignote2 {color: black; font-size: 120%; animation: clignote 2s linear infinite;}@keyframes clignote { 
   50% {opacity: 0;} 
 }</style>
-<span class="clignote2">FRAGEBOGEN GUT AUSGEFÜLLT = ANTRAG GUT BEARBEITET</span></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809458462-48 page-index paged-element" data-silex-id="silex-id-1620809458462-48" style=""><div class="silex-element-content"><div class="vl"></div>
-</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809212925-44 page-index paged-element" data-silex-id="silex-id-1620809212925-44" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621497442114-3 page-index paged-element" data-silex-id="silex-id-1621497442114-3" style=""><div class="silex-element-content"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.926432366447!2d2.354365915675112!3d48.87867897928947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6d9cafe4ff%3A0x40371ddaf406651f!2sADF%20www.autocaristes-de-france.com!5e0!3m2!1sfr!2sfr!4v1621497425910!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620808292355-34 page-index paged-element style-white" data-silex-id="silex-id-1620808292355-34" style=""><div class="silex-element-content normal">   <p><b>&nbsp; &nbsp; UNSERE FLOTTE</b><br></p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620806171438-30 page-index paged-element" data-silex-id="silex-id-1620806171438-30" style=""><img src="65-93.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620806186985-31 page-index paged-element style-blue" data-silex-id="silex-id-1620806186985-31" style=""><div class="silex-element-content normal"><h3>Reisebus mit 65 bis 93 Sitzplätzen</h3></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620808749060-35 page-index paged-element" data-silex-id="silex-id-1620808749060-35" style=""><img src="55-64.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620808759555-36 page-index paged-element style-blue" data-silex-id="silex-id-1620808759555-36" style=""><div class="silex-element-content normal"><h3>Reisebus mit 55 bis 64 Sitzplätzen</h3></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809057533-40 page-index paged-element" data-silex-id="silex-id-1620809057533-40" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620809136381-41 page-index paged-element" data-silex-id="silex-id-1620809136381-41" style=""><img src="35-55.PNG"></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809187191-43 page-index paged-element" data-silex-id="silex-id-1620809187191-43" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620809241986-45 page-index paged-element" data-silex-id="silex-id-1620809241986-45" style=""><img src="9-34.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620809249427-46 page-index paged-element style-blue" data-silex-id="silex-id-1620809249427-46" style=""><div class="silex-element-content normal"><h3>Reisebus mit 9 bis 34 Sitzplätzen</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620809150839-42 page-index paged-element style-blue" data-silex-id="silex-id-1620809150839-42" style=""><div class="silex-element-content normal"><h3>Reisebus mit 35 bis 55 Sitzplätzen</h3></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621340798768-2 page-index paged-element" data-silex-id="silex-id-1621340798768-2" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620825864108-3 page-index paged-element style-white" data-silex-id="silex-id-1620825864108-3" style=""><div class="silex-element-content normal"><b>   <p><b>
+<span class="clignote2">FRAGEBOGEN GUT AUSGEFÜLLT = ANTRAG GUT BEARBEITET</span></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809458462-48 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809458462-48" style=""><div class="silex-element-content"><div class="vl"></div>
+</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621497442114-3 page-index page-germanophone paged-element" data-silex-id="silex-id-1621497442114-3" style=""><div class="silex-element-content"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.926432366447!2d2.354365915675112!3d48.87867897928947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6d9cafe4ff%3A0x40371ddaf406651f!2sADF%20www.autocaristes-de-france.com!5e0!3m2!1sfr!2sfr!4v1621497425910!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809212925-44 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809212925-44" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620806171438-30 page-index page-germanophone paged-element" data-silex-id="silex-id-1620806171438-30" style=""><img src="65-93.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620806186985-31 page-index style-blue page-germanophone paged-element" data-silex-id="silex-id-1620806186985-31" style=""><div class="silex-element-content normal"><h3>Reisebus mit 65 bis 93 Sitzplätzen</h3></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620808749060-35 page-index page-germanophone paged-element" data-silex-id="silex-id-1620808749060-35" style=""><img src="55-64.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620808759555-36 page-index style-blue page-germanophone paged-element" data-silex-id="silex-id-1620808759555-36" style=""><div class="silex-element-content normal"><h3>Reisebus mit 55 bis 64 Sitzplätzen</h3></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809057533-40 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809057533-40" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620809136381-41 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809136381-41" style=""><img src="35-55.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620809241986-45 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809241986-45" style=""><img src="9-34.PNG"></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1620809187191-43 page-index page-germanophone paged-element" data-silex-id="silex-id-1620809187191-43" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620809249427-46 page-index style-blue page-germanophone paged-element" data-silex-id="silex-id-1620809249427-46" style=""><div class="silex-element-content normal"><h3>Reisebus mit 9 bis 34 Sitzplätzen</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620809150839-42 page-index style-blue page-germanophone paged-element" data-silex-id="silex-id-1620809150839-42" style=""><div class="silex-element-content normal"><h3>Reisebus mit 35 bis 55 Sitzplätzen</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620825864108-3 page-index style-white page-germanophone paged-element" data-silex-id="silex-id-1620825864108-3" style=""><div class="silex-element-content normal"><b>   <p><b>
 
 TOP REISEBUS KOSTENVORANSCHLAG
 
-</b><br></p></b></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621262896326-1 page-index paged-element" data-silex-id="silex-id-1621262896326-1" style=""><div class="silex-element-content normal"><p><b>
+</b><br></p></b></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621340798768-2 page-index page-germanophone paged-element" data-silex-id="silex-id-1621340798768-2" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621262896326-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1621262896326-1" style=""><div class="silex-element-content normal"><p><b>
 
 <b>Berlin &lt;--- Klicke hier</b>
 
-</b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621262435197-7 page-index paged-element" data-silex-id="silex-id-1621262435197-7" style=""><div class="silex-element-content normal"><p><b><b><b>Hamburg&nbsp;&lt;---&nbsp;Klicke hier</b></b></b></p><b><b><b></b></b></b></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621243646858-4 page-index paged-element" data-silex-id="silex-id-1621243646858-4" style=""><div class="silex-element-content normal"><p><b><b><b><b>Cologne &lt;---&nbsp;Klicke hier</b></b></b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621243647338-5 page-index paged-element" data-silex-id="silex-id-1621243647338-5" style=""><div class="silex-element-content normal"><p><b><b><b>Munich &lt;---&nbsp;Klicke hier</b></b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621263123701-2 page-index paged-element" data-silex-id="silex-id-1621263123701-2" style=""><div class="silex-element-content normal"><p><b><b><b>Stuttgart</b><b>&nbsp;&lt;---&nbsp;Klicke hier</b></b></b></p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810940512-53 page-index paged-element" data-silex-id="silex-id-1620810940512-53" style=""><b><img src="groupe1.PNG"></b></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810951486-54 page-index paged-element" data-silex-id="silex-id-1620810951486-54" style=""><b><b><img src="groupe2.PNG"></b></b></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810960997-55 page-index paged-element" data-silex-id="silex-id-1620810960997-55" style=""><b><b><img src="groupe3.PNG"></b></b></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811096868-56 page-index paged-element" data-silex-id="silex-id-1620811096868-56" style=""><div class="silex-element-content normal"><p><b><b>image nouveau logo</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620825863354-2 page-index paged-element style-white" data-silex-id="silex-id-1620825863354-2" style=""><div class="silex-element-content normal"><b>
-
-<p>&nbsp; &nbsp; <b>EINZELHEITEN</b><br></p>
-
-</b></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621326628150-4 page-index paged-element" data-silex-id="silex-id-1621326628150-4" style=""><div class="silex-element-content"><div class="bloc-bleu">
+</b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621262435197-7 page-index page-germanophone paged-element" data-silex-id="silex-id-1621262435197-7" style=""><div class="silex-element-content normal"><p><b><b><b>Hamburg&nbsp;&lt;---&nbsp;Klicke hier</b></b></b></p><b><b><b></b></b></b></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621243646858-4 page-index page-germanophone paged-element" data-silex-id="silex-id-1621243646858-4" style=""><div class="silex-element-content normal"><p><b><b><b><b>Cologne &lt;---&nbsp;Klicke hier</b></b></b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621243647338-5 page-index page-germanophone paged-element" data-silex-id="silex-id-1621243647338-5" style=""><div class="silex-element-content normal"><p><b><b><b>München &lt;---&nbsp;Klicke hier</b></b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621263123701-2 page-index page-germanophone paged-element" data-silex-id="silex-id-1621263123701-2" style=""><div class="silex-element-content normal"><p><b><b><b>Stuttgart</b><b>&nbsp;&lt;---&nbsp;Klicke hier</b></b></b></p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810940512-53 page-index page-germanophone paged-element" data-silex-id="silex-id-1620810940512-53" style=""><b><img src="groupe1.PNG"></b></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810951486-54 page-index page-germanophone paged-element" data-silex-id="silex-id-1620810951486-54" style=""><b><b><img src="groupe2.PNG"></b></b></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1620810960997-55 page-index page-germanophone paged-element" data-silex-id="silex-id-1620810960997-55" style=""><b><b><img src="groupe3.PNG"></b></b></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811096868-56 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811096868-56" style=""><div class="silex-element-content normal"><p><b><b>image nouveau logo</b></b></p></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621326628150-4 page-index page-germanophone paged-element" data-silex-id="silex-id-1621326628150-4" style=""><div class="silex-element-content"><div class="bloc-bleu">
 <div class="colonne-droite">
 <div id="resultarea" style="display:none;"></div>
 	<div id="form">
@@ -546,7 +554,69 @@ TOP REISEBUS KOSTENVORANSCHLAG
 									</form>
 </b></b></div><b><b>
 </b></b></div><b><b>
-</b></b></div></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621252431763-0 page-index paged-element" data-silex-id="silex-id-1621252431763-0" style=""><div class="silex-element-content normal"><p><b><b><b><b>Captcha impossible, manque data-sitekey</b></b></b></b></p></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621949989041-1" data-silex-id="silex-id-1621949989041-1" style=""><div class="silex-element-content">
+</b></b></div></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620825863354-2 page-index style-white page-germanophone paged-element" data-silex-id="silex-id-1620825863354-2" style=""><div class="silex-element-content normal"><b>
+
+<p>&nbsp; &nbsp; <b>EINZELHEITEN</b><br></p>
+
+</b></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620810566235-52 page-index page-germanophone paged-element" data-silex-id="silex-id-1620810566235-52" style=""><div class="silex-element-content normal"><b><b><b><b><b>
+
+AUTOCARISTES-DE-FRANCE.com ermöglicht es Ihnen, Kostenvoranschläge und Buchungen für Reisebusse, VIP-Reisebusse oder Minibusse mit Fahrer zu erhalten.&nbsp;Die Kapazität der französischen Reisebusse liegt zwischen 9 und 93 Plätzen.&nbsp;Wir bieten Ihnen das breiteste Sortiment an Modellen: Reisebus, Reisebus, Reisebus VIP, Reisebus Couchettes, Schulbus oder Minibus.&nbsp;Dank des Netzes der französischen Autofahrer sind wir in der Lage, Ihren Forderungen von Berlin aus, Hamburg, Cologne, München, Stuttgart usw, stets positiv zu entsprechen.
+
+</b></b></b></b></b></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621252431763-0 page-index page-germanophone paged-element" data-silex-id="silex-id-1621252431763-0" style=""><div class="silex-element-content normal"><p><b><b><b><b>Captcha impossible, manque data-sitekey</b></b></b></b></p></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622016634984-0 page-germanophone paged-element" data-silex-id="silex-id-1622016634984-0" style=""><div class="silex-element-content">
+
+
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="slick\slick.css">
+  <link rel="stylesheet" type="text/css" href="slick\slick-theme.css">
+  <style type="text/css">html, body {margin: 0; padding: 0;}* {box-sizing: border-box;}.slider {width: 100%; margin: 10px auto;}.slick-slide {margin: 0px 20px;}.slick-slide img {width: 100%;}.slick-prev:before,
+    .slick-next:before {color: black;}.slick-slide {transition: all ease-in-out .3s; opacity: .2;}.slick-active {opacity: .5;}.slick-current {opacity: 1;}</style>
+
+
+
+  
+
+  <section class="center slider">
+    <div>
+      <img src="logo1.PNG">
+    </div>
+    <div>
+      <img src="logo2.PNG">
+    </div>
+    <div>
+      <img src="logo3.PNG">
+    </div>
+    <div>
+      <img src="logo4.PNG">
+    </div>
+    <div>
+      <img src="logo5.PNG">
+    </div>
+  </section>
+
+  
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick\slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000
+      });
+      
+    });
+</script>
+
+
+
+</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622016659678-1 page-germanophone paged-element" data-silex-id="silex-id-1622016659678-1" style=""><div class="silex-element-content">
 
 
   <title>Slick Playground</title>
@@ -612,11 +682,558 @@ TOP REISEBUS KOSTENVORANSCHLAG
 
 
 
-</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620810566235-52 page-index paged-element" data-silex-id="silex-id-1620810566235-52" style=""><div class="silex-element-content normal"><b><b><b><b><b>
+</div></div></div></div><section data-silex-type="container-element" class="container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable page-index page-germanophone paged-element" data-silex-id="silex-id-1478366450713-3" style=""><b><b><b><b><b><b><b><b><b><b>
+        
+    </b></b></b></b></b></b><div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width" data-silex-id="silex-id-1478366450713-2" style="">
 
-AUTOCARISTES-DE-FRANCE.com ermöglicht es Ihnen, Kostenvoranschläge und Buchungen für Reisebusse, VIP-Reisebusse oder Minibusse mit Fahrer zu erhalten.&nbsp;Die Kapazität der französischen Reisebusse liegt zwischen 9 und 93 Plätzen.&nbsp;Wir bieten Ihnen das breiteste Sortiment an Modellen: Reisebus, Reisebus, Reisebus VIP, Reisebus Couchettes, Schulbus oder Minibus.&nbsp;Dank des Netzes der französischen Autofahrer sind wir in der Lage, Ihren Forderungen von Paris aus, Lyon, Marseille, Nizza, Bordeaux, Lille, Nantes, Straßburg usw. stets positiv zu entsprechen.
+            
+        <div data-silex-type="image-element" class="editable-style image-element silex-id-1620811382764-58 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811382764-58" style=""><img src="paiement.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811408340-59 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811408340-59" style=""><div class="silex-element-content normal"><h3>ZAHLUNG<br></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811727501-62 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811727501-62" style=""><div class="silex-element-content normal"><p>mettre image</p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811885669-63 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811885669-63" style=""><div class="silex-element-content normal"><h3>MITGLIED DES<br></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811909119-64 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811909119-64" style=""><div class="silex-element-content normal"><p>mettre image</p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811685962-61 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811685962-61" style=""><div class="silex-element-content normal"><h3>REGELUNG<br></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811477140-60 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620811477140-60" style=""><div class="silex-element-content normal"><h3>AUTOCARISTE DE FRANCE</h3><p><br></p><p>SUPER TRANSPORT FRANCE</p><p>SIRET : 85134932400018</p><p>TVA Intracommunautaire :</p><p>FR57851349324</p><p><br></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621426626783-5 page-index page-germanophone paged-element" data-silex-id="silex-id-1621426626783-5" style=""><div class="silex-element-content"><hr></div></div></div></b></b></b></b></section><div data-silex-type="container-element" class="editable-style section-element silex-id-1620803885312-12 page-page-1 page-index page-germanophone paged-element" data-silex-id="silex-id-1620803885312-12" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1620803885312-13 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1620803885312-13" style=""><div data-silex-type="html-element" class="editable-style html-element silex-id-1621257854538-4 page-index page-germanophone paged-element" data-silex-id="silex-id-1621257854538-4" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621410438497-8 page-index page-germanophone paged-element" data-silex-id="silex-id-1621410438497-8" style=""><div class="silex-element-content normal"><h3><b>Qualitätszertifikat</b></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621410361558-7 page-index page-germanophone paged-element" data-silex-id="silex-id-1621410361558-7" style=""><div class="silex-element-content normal"><h3><b>Regelung</b></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621409734520-6 page-index page-germanophone paged-element" data-silex-id="silex-id-1621409734520-6" style=""><div class="silex-element-content normal"><ul><li><p><b>Berlin</b></p></li><li><p><b>Hamburg</b></p></li><li><p><b>Munich</b></p></li><li><p><b>Cologne</b></p></li><li><p><b>Stuttgart</b></p></li></ul><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1621495475310-3 page-test page-anglophone paged-element" data-silex-id="silex-id-1621495475310-3"><div data-silex-type="container-element" class="editable-style container-element silex-id-1621495475311-4 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1621495475311-4" style=""><div data-silex-type="image-element" class="editable-style image-element silex-id-1622016400536-2 page-anglophone paged-element" data-silex-id="silex-id-1622016400536-2" style=""></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622016742120-2 page-anglophone paged-element" data-silex-id="silex-id-1622016742120-2" style=""><img src="image.png"></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1622016873590-3 page-anglophone paged-element" data-silex-id="silex-id-1622016873590-3"><div data-silex-type="container-element" class="editable-style container-element silex-id-1622016873590-4 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1622016873590-4" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1622017117270-8 page-anglophone paged-element" data-silex-id="silex-id-1622017117270-8" style=""><div class="silex-element-content normal"><p>88% of our quotes are accepted</p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622017022188-7 page-anglophone paged-element" data-silex-id="silex-id-1622017022188-7" style=""><img src="devis.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622016986816-5 page-anglophone paged-element" data-silex-id="silex-id-1622016986816-5" style=""><img src="megaphone.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622017276577-10 page-anglophone paged-element" data-silex-id="silex-id-1622017276577-10" style=""><div class="silex-element-content normal"><p>93% of our customers are ready to recommend us</p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622017206291-9 page-anglophone paged-element" data-silex-id="silex-id-1622017206291-9" style=""><div class="silex-element-content normal"><p>95% of our customers are satisfied</p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622017000991-6 page-anglophone paged-element" data-silex-id="silex-id-1622017000991-6" style=""><img src="pouce.PNG"></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1622017391272-11 page-anglophone paged-element" data-silex-id="silex-id-1622017391272-11"><div data-silex-type="container-element" class="editable-style container-element silex-id-1622017391272-12 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1622017391272-12" style=""><div data-silex-type="html-element" class="editable-style html-element silex-id-1622017452644-13 page-anglophone paged-element" data-silex-id="silex-id-1622017452644-13" style=""><div class="silex-element-content"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.926432366447!2d2.354365915675112!3d48.87867897928947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e6d9cafe4ff%3A0x40371ddaf406651f!2sADF%20www.autocaristes-de-france.com!5e0!3m2!1sfr!2sfr!4v1621497425910!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622017652737-14 page-anglophone paged-element" data-silex-id="silex-id-1622017652737-14" style=""><div class="silex-element-content"><div class="vl"></div>
+</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622018486538-18 style-white page-anglophone paged-element" data-silex-id="silex-id-1622018486538-18" style=""><div class="silex-element-content normal">   <p><b>&nbsp; &nbsp; OUR FLEET</b><br></p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622018554567-24 page-anglophone paged-element" data-silex-id="silex-id-1622018554567-24" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\55-64.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622018573712-28 page-anglophone paged-element" data-silex-id="silex-id-1622018573712-28" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\35-55.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622018588281-32 page-anglophone paged-element" data-silex-id="silex-id-1622018588281-32" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\9-34.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622018545467-22 style-blue page-anglophone paged-element" data-silex-id="silex-id-1622018545467-22" style=""><div class="silex-element-content normal"><h3>Coach 65 to 93 seats</h3></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622019016890-36 page-anglophone paged-element" data-silex-id="silex-id-1622019016890-36" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622019027202-37 page-anglophone paged-element" data-silex-id="silex-id-1622019027202-37" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622019051125-38 page-anglophone paged-element" data-silex-id="silex-id-1622019051125-38" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622019066851-39 page-anglophone paged-element" data-silex-id="silex-id-1622019066851-39" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622018565783-26 style-blue page-anglophone paged-element" data-silex-id="silex-id-1622018565783-26" style=""><div class="silex-element-content normal"><h3>Coach 55 to 64 seats
 
-</b></b></b></b></b></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621949963577-0" data-silex-id="silex-id-1621949963577-0" style=""><div class="silex-element-content">
+</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622018581523-30 style-blue page-anglophone paged-element" data-silex-id="silex-id-1622018581523-30" style=""><div class="silex-element-content normal"><h3>Coach 35 to 55 seats
+
+</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622018595547-34 style-blue page-anglophone paged-element" data-silex-id="silex-id-1622018595547-34" style=""><div class="silex-element-content normal"><h3>Coach 9 to 34 seats
+
+</h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019139759-43 style-white page-anglophone paged-element" data-silex-id="silex-id-1622019139759-43" style=""><div class="silex-element-content normal">   <p><b>
+
+TOP COACH QUOTATION
+
+</b><br></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019369518-45 page-anglophone paged-element" data-silex-id="silex-id-1622019369518-45" style=""><div class="silex-element-content normal"><p><b>
+
+<b>London &lt;--- Click here</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019453967-48" data-silex-id="silex-id-1622019453967-48" style=""><div class="silex-element-content normal"><p><b>
+
+<b>Birmingham &lt;--- Click here</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019455022-49" data-silex-id="silex-id-1622019455022-49" style=""><div class="silex-element-content normal"><p><b>
+
+<b>Glasgow &lt;--- Click here</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019453103-47" data-silex-id="silex-id-1622019453103-47" style=""><div class="silex-element-content normal"><p><b>
+
+<b>Liverpool &lt;--- Click here</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019455973-50" data-silex-id="silex-id-1622019455973-50" style=""><div class="silex-element-content normal"><p><b>
+
+<b>Manchester &lt;--- Click here</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019590173-52 style-white page-anglophone paged-element" data-silex-id="silex-id-1622019590173-52" style=""><div class="silex-element-content normal">
+
+<p>&nbsp; &nbsp; <b>DETAILS</b><br></p>
+
+</div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622019639780-54 page-anglophone paged-element" data-silex-id="silex-id-1622019639780-54" style=""><div class="silex-element-content normal">
+
+<b></b>AUTOCARISTES-DE-FRANCE.com allows you to obtain quotes and reservations for coaches, VIP coaches or even minibuses with driver. The capacity of 
+
+autocars de France
+
+ ranges from 9 to 93 seats. We offer the widest range of models: Tourist Coach, Grand Touring Coach, VIP Coach, Couchette Coach, School Coach or Minibus. Thanks to the network of Autocaristes de France, we are able to always respond positively to your requests from London, Birmingham, Glasgow, Manchester, Liverpool etc.
+
+</div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622020008799-57 page-anglophone paged-element" data-silex-id="silex-id-1622020008799-57" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\groupe1.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622020023174-59 page-anglophone paged-element" data-silex-id="silex-id-1622020023174-59" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\groupe2.PNG"></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622020046792-61 page-anglophone paged-element" data-silex-id="silex-id-1622020046792-61" style=""><img src="..\..\..\..\..\github\get\ADF_website\main\groupe3.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622020071058-63 page-anglophone paged-element" data-silex-id="silex-id-1622020071058-63" style=""><div class="silex-element-content normal"><p>image nouveau logo</p></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622020102212-65 page-anglophone paged-element" data-silex-id="silex-id-1622020102212-65" style=""><div class="silex-element-content"><div class="bloc-bleu">
+<div class="colonne-droite">
+<div id="resultarea" style="display:none;"></div>
+	<div id="form">
+								<h3 class="widget-title-r">QUICK AND FREE QUOTE </h3>
+								<h2 class="clignotant txt_center" style="font-size:16px;">WELL-INFORMED QUESTIONNAIRE = WELL-PROCESSED REQUEST</h2>
+								<noscript><div class="erreur" style="font-size:15px">You must enable javascript on this page to request a quote!<b><b></b></b></div></noscript><b><b>
+								
+								<div>
+												<input name="typeVoyage" type="radio" id="typeVoyage_aller" value="1" class="validate[required]" checked="checked" onclick="handleClick(this)" ;=""><label for="typeVoyage_aller">One way ticket</label>  
+												<input name="typeVoyage" type="radio" id="typeVoyage_aller_retour" value="0" class="validate[required]" onclick="handleClick(this)" ;=""><label for="typeVoyage_aller_retour">Round trip</label>
+												<input name="typeVoyage" type="radio" id="typeVoyage_circuit" value="0" class="validate[required]" onclick="handleClick(this)" ;=""><label for="typeVoyage_circuit">Circuit</label>
+											</div>
+
+                                            <br><br>
+								
+								<form action="../../../form/send?idform=23" method="post" enctype="multipart/form-data" name="form_devis3" id="form_devis3">
+									<div class="Bleu">
+												</div><div class="Bleu clear">
+												</div><table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+										
+										<tr>
+											<td style="text-align:right;" colspan="2">Number of participants
+												<input name="nb_personne" type="text" class="validate[required] Lmini champA Infos" id="nb_personne" size="2" required="">
+											</td>
+										</tr>
+										
+										<tr>
+											<td style="width:90px;text-align:right;">Departure </td>
+												<td><input name="cp_depart" type="text" class="validate[required] champA Infos Ltiers ui-autocomplete-input" id="cp_depart" placeholder="Postal code or city" alt="Code Postal ou Ville" title="Code Postal ou Ville" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+												<td><input name="lieu_depart" type="text" class="champA Infos Ltiers" id="lieu_depart" placeholder="Address (optional)" alt="Adresse (facultative)" title="Adresse (facultative)"></td>
+												<td><input name="pays_depart" type="text" class="champA Infos Ltiers2 ui-autocomplete-input" id="pays_depart" placeholder="ENGLAND" title="ENGLAND" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+											
+										</tr>
+										
+										<tr>
+											<td style="width:90px;text-align:right;">Arrival </td>
+												<td><input name="cp_arrivee" type="text" class="validate[required] champA Infos Ltiers ui-autocomplete-input" id="cp_arrivee" placeholder="Postal code or city" alt="Code Postal ou Ville" title="Code Postal ou Ville" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+												<td><input name="lieu_arrivee" type="text" class="champA Infos Ltiers" id="lieu_arrivee" placeholder="Address (optional)" alt="Adresse (facultative)" title="Adresse (facultative)"></td>
+												<td><input name="pays_arrivee" type="text" class="champA Infos Ltiers2 ui-autocomplete-input" id="pays_arrivee" placeholder="COUNTRY" title="PAYS" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+											
+										</tr>
+										
+										<tr>
+													<td style="width:100px;text-align:right;">One way on </td>
+												
+													<td><input name="date_aller" type="text" class="validate[required] champA Infos Ltiers2" id="date_aller" placeholder="JJ/MM/AAAA" size="18" required=""></td>
+												
+													<td>
+														<input name="radio_approximation_aller" type="radio" id="radio_approximation_aller_depart" value="depart" checked="checked">
+														<label for="radio_approximation_aller_depart">Departure at </label>
+													
+														<input type="radio" name="radio_approximation_aller" id="radio_approximation_aller_arrivee" value="arrivee">
+														<label for="radio_approximation_aller_arrivee" style="margin-right:10px;">Arrival at </label>
+													</td>
+													<td>
+														<select name="heure_aller" class="champA Infos2" id="heure_aller" required="">
+																<option class="parDefaut">HH</option>
+																<option>00h</option>
+																<option>01h</option>
+																<option>02h</option>
+																<option>03h</option>
+																<option>04h</option>
+																<option>05h</option>
+																<option>06h</option>
+																<option>07h</option>
+																<option>08h</option>
+																<option>09h</option>
+																<option>10h</option>
+																<option>11h</option>
+																<option>12h</option>
+																<option>13h</option>
+																<option>14h</option>
+																<option>15h</option>
+																<option>16h</option>
+																<option>17h</option>
+																<option>18h</option>
+																<option>19h</option>
+																<option>20h</option>
+																<option>21h</option>
+																<option>22h</option>
+																<option>23h</option>
+														</select>
+														<select name="minute_aller" class="champA Infos2" id="minute_aller" required="">
+																<option class="parDefaut">MM</option>
+																<option>00</option>
+																<option>10</option>
+																<option>20</option>
+																<option>30</option>
+																<option>40</option>
+																<option>50</option>
+														</select>
+													</td>
+										</tr>
+										
+										
+									<tr class="ZoneRepasConducteur">
+										<td colspan="1"></td>
+										<td colspan="2">
+														The customer pays for the driver's meals.
+										</td>
+										<td colspan="1">
+														<input name="radio_repas_conducteur" type="radio" id="radio_repas_conducteur_oui" value="Oui" checked="checked">
+														<label for="radio_repas_conducteur_oui">Yes</label>
+													<br>
+														<input type="radio" name="radio_repas_conducteur" id="radio_repas_conducteur_non" value="Non">
+														<label for="radio_repas_conducteur_non">No</label>
+										</td>
+									</tr>
+									
+										</tbody>
+									</table>
+									
+									
+											<h3>YOUR CONTACT DETAILS</h3>
+
+											<p>None of your information will be communicated to third parties.</p>
+
+											<div>
+													<select name="typegroupe" class="validate[required] champA Infos2" id="minute_retour" required="">
+														<option class="parDefaut"></option>
+														<option>Private person</option>
+														<option>Student Association</option>
+														<option>School</option>
+														<option>Administration</option>
+														<option>Sports Association</option>
+														<option>Scoot &amp; colony</option>
+														<option>Event agency</option>
+														<option>Collectivity</option>
+														<option>Works council</option>
+														<option>Association</option>
+														<option>Business</option>
+														<option>Other group</option>
+													</select>
+											</div>
+										
+											<div>
+												<input name="nom" class="validate[required] champA Infos Ldemi" type="text" id="nom" placeholder="Last name" alt="Last name" title="Last name" required="">
+												<input name="prenom" class="validate[required] champA Infos Ldemi" type="text" id="prenom" placeholder="First name" alt="First name" title="First name" required="">
+											</div>
+											
+											<div>
+												<input name="telephone" class="validate[required] champA Infos Ldemi" type="tel" id="telephone" placeholder="Phone" alt="Phone" title="Phone" required="">
+												<input name="email" class="validate[required,custom[email]] email champA Infos Ldemi" type="email" id="email" placeholder="E-mail" alt="Email" title="Email" required="">
+											</div>
+										
+											<div>
+											<div id="ligne-horizontale"></div><br>
+												<h3>YOUR PROJECT</h3>
+											</div>
+										
+											<div><p>Communicate to us your requirements related to your project. This information makes it possible to establish a fair quote. For example, design and organization of your trip; provision of the coach at the place of destination; flight number; passengers are children etc.</p><br><br>
+											</div>
+										
+											<div class="Bleu">
+												<textarea class="Llarge champA" name="commentaire" cols="60" rows="8" id="commentaire" required=""></textarea>
+											</div>
+										
+											
+											<div valign="top" class="Bleu">
+												<div style="width:360px;float:left;">
+													<p class="Bleu"><br>Do you have a document describing your project ?<br>
+														Let us reach by downloading.<br>
+														<em style="color:#666666">(maximum 1MB of Word, Excel or Pdf type) </em>
+													</p>
+												</div>
+                        
+												<div id="txt_file" class="clear"></div><br><br><br>
+											</div>
+										
+											<br><br><br>
+											
+											<div align="left" class="clear"> <br>
+												<button onclick="rgpd()">GDPR confirmation</button>
+												<input name="submit" type="submit" id="submit3" alt="Send" title="Send" value="Send" disabled="true">
+											</div>
+											
+									<br>
+									</form>
+									
+									
+									
+									
+									<form action="../../../form/send?idform=23" method="post" enctype="multipart/form-data" name="form_devis4" id="form_devis4" style="display:none;">
+									<div class="Bleu">
+												</div><div class="Bleu clear">
+												</div><table border="0" cellpadding="0" cellspacing="0">
+										<tbody>
+										
+										<tr>
+											<td style="text-align:right;" colspan="2">Number of participants
+												<input name="nb_personne" type="text" class="validate[required] Lmini champA Infos" id="nb_personne" size="2" required="">
+											</td>
+										</tr>
+										
+										<tr>
+											<td style="width:80px;text-align:right;">Departure </td>
+												<td><input name="cp_depart" type="text" class="validate[required] champA Infos Ltiers ui-autocomplete-input" id="cp_depart" placeholder="Postal code or city" alt="Code Postal ou Ville" title="Code Postal ou Ville" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+												<td><input name="lieu_depart" type="text" class="champA Infos Ltiers" id="lieu_depart" placeholder="Address (optional)" alt="Adresse (facultative)" title="Adresse (facultative)"></td>
+												<td><input name="pays_depart" type="text" class="champA Infos Ltiers2 ui-autocomplete-input" id="pays_depart" placeholder="ENGLAND" title="ENGLAND" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+											
+										</tr>
+										
+										<tr>
+											<td style="width:80px;text-align:right;">Arrival </td>
+												<td><input name="cp_arrivee" type="text" class="validate[required] champA Infos Ltiers ui-autocomplete-input" id="cp_arrivee" placeholder="Postal code or city" alt="Code Postal ou Ville" title="Code Postal ou Ville" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+												<td><input name="lieu_arrivee" type="text" class="champA Infos Ltiers" id="lieu_arrivee" placeholder="Address (optional)" alt="Adresse (facultative)" title="Adresse (facultative)"></td>
+												<td><input name="pays_arrivee" type="text" class="champA Infos Ltiers2 ui-autocomplete-input" id="pays_arrivee" placeholder="COUNTRY" title="PAYS" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true" required=""></td>
+											
+										</tr>
+										
+										<tr>
+													<td style="width:100px;text-align:right;">One way on </td>
+												
+													<td><input name="date_aller" type="text" class="validate[required] champA Infos Ltiers2" id="date_aller" placeholder="JJ/MM/AAAA" size="16" required=""></td>
+												
+													<td>
+														<input name="radio_approximation_aller" type="radio" id="radio_approximation_aller_depart" value="depart" checked="checked">
+														<label for="radio_approximation_aller_depart">Departure at </label>
+													
+														<input type="radio" name="radio_approximation_aller" id="radio_approximation_aller_arrivee" value="arrivee">
+														<label for="radio_approximation_aller_arrivee" style="margin-right:10px;">Arrival at </label>
+													</td>
+													<td>
+														<select name="heure_aller" class="champA Infos2" id="heure_aller" required="">
+																<option class="parDefaut">HH</option>
+																<option>00h</option>
+																<option>01h</option>
+																<option>02h</option>
+																<option>03h</option>
+																<option>04h</option>
+																<option>05h</option>
+																<option>06h</option>
+																<option>07h</option>
+																<option>08h</option>
+																<option>09h</option>
+																<option>10h</option>
+																<option>11h</option>
+																<option>12h</option>
+																<option>13h</option>
+																<option>14h</option>
+																<option>15h</option>
+																<option>16h</option>
+																<option>17h</option>
+																<option>18h</option>
+																<option>19h</option>
+																<option>20h</option>
+																<option>21h</option>
+																<option>22h</option>
+																<option>23h</option>
+														</select>
+														<select name="minute_aller" class="champA Infos2" id="minute_aller" required="">
+																<option class="parDefaut">MM</option>
+																<option>00</option>
+																<option>10</option>
+																<option>20</option>
+																<option>30</option>
+																<option>40</option>
+																<option>50</option>
+														</select>
+													</td>
+										</tr>
+										
+										<tr class="ZoneRetour">
+												<td style="width:80px;text-align:right;">Return on : </td>
+											
+												<td><input name="date_retour" type="text" class="validate[required] champA Infos Ltiers2" id="date_retour" placeholder="JJ/MM/AAAA" size="16" required=""></td>
+												
+												<td>
+													<input name="radio_approximation_retour" type="radio" id="radio_approximation_retour_depart" value="depart">
+													<label for="radio_approximation_retour_depart">Departure at</label>
+												
+													<input name="radio_approximation_retour" type="radio" id="radio_approximation_retour_arrivee" value="arrivee" checked="checked">
+													<label for="radio_approximation_retour_arrivee">Arrival at</label>
+												</td>
+											
+												<td>
+													<select name="heure_retour" class="champA Infos2" id="heure_retour" required="">
+														<option class="parDefaut">HH</option>
+														<option>00h</option>
+														<option>01h</option>
+														<option>02h</option>
+														<option>03h</option>
+														<option>04h</option>
+														<option>05h</option>
+														<option>06h</option>
+														<option>07h</option>
+														<option>08h</option>
+														<option>09h</option>
+														<option>10h</option>
+														<option>11h</option>
+														<option>12h</option>
+														<option>13h</option>
+														<option>14h</option>
+														<option>15h</option>
+														<option>16h</option>
+														<option>17h</option>
+														<option>18h</option>
+														<option>19h</option>
+														<option>20h</option>
+														<option>21h</option>
+														<option>22h</option>
+														<option>23h</option>
+													</select>
+													
+													<select name="minute_retour" class="champA Infos2" id="minute_retour" required="">
+														<option class="parDefaut">MM</option>
+														<option>00</option>
+														<option>10</option>
+														<option>20</option>
+														<option>30</option>
+														<option>40</option>
+														<option>50</option>
+													</select>
+												</td>
+									</tr>
+									<tr class="ZoneRepasConducteur">
+										<td colspan="1"></td>
+										<td colspan="2">
+														The customer pays for the driver's meals.
+										</td>
+										<td colspan="1">
+														<input name="radio_repas_conducteur" type="radio" id="radio_repas_conducteur_oui" value="Oui" checked="checked">
+														<label for="radio_repas_conducteur_oui">Yes</label>
+													<br>
+														<input type="radio" name="radio_repas_conducteur" id="radio_repas_conducteur_non" value="Non">
+														<label for="radio_repas_conducteur_non">No</label>
+										</td>
+									</tr>
+									<tr class="ZoneFraisHebergement">
+										<td colspan="1"></td>
+										<td colspan="2">
+														The customer bears the accommodation costs.
+										</td>
+										<td colspan="1">
+														<input name="radio_hebergement_conducteur" type="radio" id="radio_hebergement_conducteur_oui" value="Oui" checked="checked">
+														<label for="radio_hebergement_conducteur_oui">Yes</label>
+													<br>
+														<input type="radio" name="radio_hebergement_conducteur" id="radio_hebergement_conducteur_non" value="Non">
+														<label for="radio_hebergement_conducteur_non">No</label>
+										</td>
+									</tr><tr class="ZoneAutocarSurPlace">
+										<td colspan="1"></td>
+										<td colspan="2">
+														Do you need the coach on site?
+										</td>
+										<td colspan="1">
+														<input name="radio_dispo_autocar" type="radio" id="radio_dispo_autocar_oui" value="Oui" checked="checked">
+														<label for="radio_dispo_autocar_oui">Yes</label>
+													<br>
+														<input type="radio" name="radio_dispo_autocar" id="radio_dispo_autocar_non" value="Non">
+														<label for="radio_dispo_autocar_non">No</label>
+										</td>
+									</tr>
+<tr class="ZonePrestaVAller">
+										<td colspan="1"></td>
+										<td colspan="2">
+														Services during the return trip
+										</td>
+										<td colspan="1">
+														<input type="checkbox" name="radio_prestaplus_valler_petitdej" id="radio_prestaplus_valler_petitdej" value="Petit-déjeuner">
+														<label for="radio_prestaplus_valler_petitdej">Breakfast</label>
+<br>
+														<input type="checkbox" name="radio_prestaplus_valler_dejeuner" id="radio_prestaplus_valler_dejeuner" value="Déjeuner">
+														<label for="radio_prestaplus_valler_dejeuner">Lunch</label>
+<br>
+														<input type="checkbox" name="radio_prestaplus_valler_diner" id="radio_prestaplus_valler_diner" value="Diner">
+														<label for="radio_prestaplus_valler_diner">Dinner</label>
+<br>
+														<input type="checkbox" name="radio_prestaplus_valler_boissonsincluses" id="radio_prestaplus_valler_boissonsincluses" value="Boissons incluses">
+														<label for="radio_prestaplus_valler_boissonsicluses">Drinks included</label>
+										</td>
+									</tr>
+									
+										</tbody>
+									</table>
+									
+									
+											<h3>YOUR CONTACT DETAILS</h3>
+
+											<p>None of your information will be communicated to third parties.</p>
+
+											<div>
+													<select name="typegroupe" class="validate[required] champA Infos2" id="minute_retour" required="">
+														<option class="parDefaut"></option>
+														<option>Private person</option>
+														<option>Student Association</option>
+														<option>School</option>
+														<option>Administration</option>
+														<option>Sports Association</option>
+														<option>Scoot &amp; colony</option>
+														<option>Event agency</option>
+														<option>Collectivity</option>
+														<option>Works council</option>
+														<option>Association</option>
+														<option>Business</option>
+														<option>Other group</option>
+													</select>
+											</div>
+										
+											<div>
+												<input name="nom" class="validate[required] champA Infos Ldemi" type="text" id="nom" placeholder="Last name" alt="Last name" title="Last name" required="">
+												<input name="prenom" class="validate[required] champA Infos Ldemi" type="text" id="prenom" placeholder="First name" alt="First name" title="First name" required="">
+											</div>
+											
+											<div>
+												<input name="telephone" class="validate[required] champA Infos Ldemi" type="text" id="telephone" placeholder="Phone" alt="Phone" title="Phone" required="">
+												<input name="email" class="validate[required,custom[email]] email champA Infos Ldemi" type="text" id="email" placeholder="E-mail" alt="Email" title="Email" required="">
+											</div>
+										
+											<div>
+											<div id="ligne-horizontale"></div><br>
+												<h3>YOUR PROJECT</h3>
+											</div>
+										
+											<div><p>Communicate to us your requirements related to your project. This information makes it possible to establish a fair quote. For example, design and organization of your trip; provision of the coach at the place of destination; flight number; passengers are children etc.</p><br><br>
+											</div>
+										
+											<div class="Bleu">
+												<textarea class="Llarge champA" name="commentaire" cols="60" rows="8" id="commentaire" required=""></textarea>
+											</div>
+										
+											
+											<div valign="top" class="Bleu">
+												<div style="width:360px;float:left;">
+													<p class="Bleu"><br>Do you have a document describing your project ?<br>
+														Let us reach by downloading.<br>
+														<em style="color:#666666">(maximum 1MB of Word, Excel or Pdf type) </em>
+													</p>
+												</div>
+                        
+												<div id="txt_file" class="clear"></div><br><br><br>
+											</div>
+
+                      
+											<br><br><br><br><br>
+
+											<div align="left" class="clear"> <br>
+												<button onclick="rgpd()">GDPR confirmation</button>
+												<input name="submit" type="submit" id="submit4" alt="Send" title="Send" value="Send" disabled="true">
+											</div>
+										
+									<br>
+									</form>
+</b></b></div><b><b>
+</b></b></div><b><b>
+</b></b></div></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622020137718-67 page-anglophone paged-element" data-silex-id="silex-id-1622020137718-67" style=""><div class="silex-element-content normal"><p><b><b><b>Captcha impossible, manque data-sitekey</b></b></b></p></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622020151343-69 page-anglophone paged-element" data-silex-id="silex-id-1622020151343-69" style=""><div class="silex-element-content"><b><b>
+
+
+  <title>Slick Playground</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="slick\slick.css">
+  <link rel="stylesheet" type="text/css" href="slick\slick-theme.css">
+  <style type="text/css">html, body {margin: 0; padding: 0;}* {box-sizing: border-box;}.slider {width: 100%; margin: 100px auto;}.slick-slide {margin: 0px 20px;}.slick-slide img {width: 100%;}.slick-prev:before,
+    .slick-next:before {color: black;}.slick-slide {transition: all ease-in-out .3s; opacity: .2;}.slick-active {opacity: .5;}.slick-current {opacity: 1;}</style>
+
+
+
+  
+
+  <section class="center slider">
+    <div>
+      <img src="carousel1.PNG">
+    </div>
+    <div>
+      <img src="carousel2.PNG">
+    </div>
+    <div>
+      <img src="carousel3.PNG">
+    </div>
+    <div>
+      <img src="carousel4.PNG">
+    </div>
+    <div>
+      <img src="carousel5.PNG">
+    </div>
+    <div>
+      <img src="carousel6.PNG">
+    </div>
+    <div>
+      <img src="carousel7.PNG">
+    </div>
+    <div>
+      <img src="carousel8.PNG">
+    </div>
+    <div>
+      <img src="carousel9.PNG">
+    </div>
+  </section>
+
+  
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="slick\slick.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function() {
+      
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000
+      });
+      
+    });
+</script>
+
+
+
+</b></b></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1622019105861-41 page-anglophone paged-element" data-silex-id="silex-id-1622019105861-41" style=""><div class="silex-element-content"><b><b>
 
 
   <title>Slick Playground</title>
@@ -670,9 +1287,4 @@ AUTOCARISTES-DE-FRANCE.com ermöglicht es Ihnen, Kostenvoranschläge und Buchung
 
 
 
-</div></div></div></div><section data-silex-type="container-element" class="container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable page-index paged-element" data-silex-id="silex-id-1478366450713-3" style=""><b><b><b><b><b><b><b><b><b><b>
-        
-    </b></b></b></b></b></b><div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width" data-silex-id="silex-id-1478366450713-2" style="">
-
-            
-        <div data-silex-type="image-element" class="editable-style image-element silex-id-1620811382764-58 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811382764-58" style=""><img src="paiement.PNG"></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811408340-59 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811408340-59" style=""><div class="silex-element-content normal"><h3>ZAHLUNG<br></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811727501-62 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811727501-62" style=""><div class="silex-element-content normal"><p>mettre image</p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811885669-63 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811885669-63" style=""><div class="silex-element-content normal"><h3>MITGLIED DES<br></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811909119-64 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811909119-64" style=""><div class="silex-element-content normal"><p>mettre image</p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811685962-61 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811685962-61" style=""><div class="silex-element-content normal"><h3>REGELUNG<br></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1620811477140-60 page-page-1 page-index paged-element" data-silex-id="silex-id-1620811477140-60" style=""><div class="silex-element-content normal"><h3>AUTOCARISTE DE FRANCE</h3><p><br></p><p>SUPER TRANSPORT FRANCE</p><p>SIRET : 85134932400018</p><p>TVA Intracommunautaire :</p><p>FR57851349324</p><p><br></p><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1621426626783-5 page-index paged-element" data-silex-id="silex-id-1621426626783-5" style=""><div class="silex-element-content"><hr></div></div></div></b></b></b></b></section><div data-silex-type="container-element" class="editable-style section-element silex-id-1620803885312-12 page-page-1 page-index paged-element" data-silex-id="silex-id-1620803885312-12" style=""><div data-silex-type="container-element" class="editable-style container-element silex-id-1620803885312-13 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1620803885312-13" style=""><div data-silex-type="html-element" class="editable-style html-element silex-id-1621257854538-4 page-index paged-element" data-silex-id="silex-id-1621257854538-4" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621410438497-8 page-index paged-element" data-silex-id="silex-id-1621410438497-8" style=""><div class="silex-element-content normal"><h3><b>Qualitätszertifikat</b></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621410361558-7 page-index paged-element" data-silex-id="silex-id-1621410361558-7" style=""><div class="silex-element-content normal"><h3><b>Regelung</b></h3><span class="_wysihtml-temp-caret-fix" style="position: absolute; display: block; min-width: 1px; z-index: 99999;">﻿</span></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1621409734520-6 page-index paged-element" data-silex-id="silex-id-1621409734520-6" style=""><div class="silex-element-content normal"><ul><li><p><b>Berlin</b></p></li><li><p><b>Hamburg</b></p></li><li><p><b>Munich</b></p></li><li><p><b>Cologne</b></p></li><li><p><b>Stuttgart</b></p></li></ul></div></div></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1621495475310-3 page-test paged-element" data-silex-id="silex-id-1621495475310-3"><div data-silex-type="container-element" class="editable-style container-element silex-id-1621495475311-4 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1621495475311-4" style=""><div data-silex-type="text-element" class="editable-style text-element silex-id-1621495427069-2 page-test paged-element" data-silex-id="silex-id-1621495427069-2" style=""><div class="silex-element-content normal"><p><a href="#!page-index" class="page-link-active">TEST</a></p></div></div></div></div></body></html>
+</b></b></div></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622018521466-20 page-anglophone paged-element" data-silex-id="silex-id-1622018521466-20" style=""><b><b><img src="..\..\..\..\..\github\get\ADF_website\main\65-93.PNG"></b></b></div></div><div data-silex-type="container-element" class="editable-style section-element silex-id-1622022803549-73 page-anglophone paged-element" data-silex-id="silex-id-1622022803549-73"><div data-silex-type="container-element" class="editable-style container-element silex-id-1622022803549-74 silex-element-content website-width prevent-draggable" data-silex-id="silex-id-1622022803549-74"><div data-silex-type="html-element" class="editable-style html-element silex-id-1622022834391-75 page-anglophone paged-element" data-silex-id="silex-id-1622022834391-75" style=""><div class="silex-element-content"><hr></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622022891348-77 page-anglophone paged-element" data-silex-id="silex-id-1622022891348-77" style=""><div class="silex-element-content normal"><h3><b><b>AUTOCARISTE DE FRANCE</b></b></h3><p><b><b><br></b></b></p><p><b><b>SUPER TRANSPORT FRANCE</b></b></p><p><b><b>SIRET : 85134932400018</b></b></p><p><b><b>TVA Intracommunautaire :</b></b></p><p><b><b>FR57851349324</b></b></p><p><b><b><br></b></b></p></div></div><div data-silex-type="image-element" class="editable-style image-element silex-id-1622022942814-79 page-anglophone paged-element" data-silex-id="silex-id-1622022942814-79" style=""><b><b><img src="..\..\..\..\..\github\get\ADF_website\main\paiement.PNG"></b></b></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622022977366-81 page-anglophone paged-element" data-silex-id="silex-id-1622022977366-81" style=""><div class="silex-element-content normal"><h3><b><b>PAYMENT<br></b></b></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622023015239-84 page-anglophone paged-element" data-silex-id="silex-id-1622023015239-84" style=""><div class="silex-element-content normal"><p><b><b>mettre image</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622023012034-83 page-anglophone paged-element" data-silex-id="silex-id-1622023012034-83" style=""><div class="silex-element-content normal"><p><b><b>mettre image</b></b></p></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622023029779-86 page-anglophone paged-element" data-silex-id="silex-id-1622023029779-86" style=""><div class="silex-element-content normal"><h3><b><b>REGULATION<br></b></b></h3></div></div><div data-silex-type="text-element" class="editable-style text-element silex-id-1622023061584-88" data-silex-id="silex-id-1622023061584-88" style=""><div class="silex-element-content normal"><h3><b><b>MEMBER OF<br></b></b></h3></div></div></div></div></body></html>
